@@ -89,9 +89,11 @@ p.ex1 {
 
 
 <body style="background-color:#FFFFFF;margin-left:50px;">
-  <hr>
-   <h3 id="Analysis">Analysis and Discussion</h3>
-  <hr>
+  
+  <h3 id="Analysis">Analysis</h3>
+    <p id="Analysis">
+      image deck repair
+    <p>
   
 <body style="background-color:#FFFFFF;margin-left:50px;">
   <hr>
@@ -180,9 +182,8 @@ p.ex1 {
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Introduction");
     const AnalysisCount = displayWordCount("Analysis");
-    const AbstractCount = displayWordCount("Abstract");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + AnalysisCount + AbstractCount ;
+    const totalWordCount = IntroductionCount + AnalysisCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
